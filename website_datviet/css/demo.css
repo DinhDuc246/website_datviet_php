@@ -1,0 +1,101 @@
+.line{
+   background-color:black;
+   margin-top: 15%;
+   width: 20%;
+}
+.linel{
+    right: -35%;
+    position: absolute;
+}
+.liner{
+    left: -36%;
+    position: absolute;
+}
+.linel1{
+    right: -77%;
+    position: absolute;
+}
+.liner1{
+    left: -77%;
+    position: absolute;
+}
+.title{
+    font-family: 'Bahnschrift Condensed', sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+   
+}
+.sub-about p{
+    line-height: 9px;
+}
+*{
+    font-size: 15px;
+}
+.content{
+    padding-left: 20px;
+}
+.name{
+    color: orange;
+    font-weight: bolder;
+    font-family: 'Bahnschrift Condensed', sans-serif;
+}
+.ty p{
+    font-weight: bolder;
+}
+.ty span{
+    color: orange;
+}
+.local p{
+    font-weight: bolder;
+}
+.local span{
+    font-weight: normal;
+}
+.local a{
+    font-weight: normal;
+    text-decoration:underline;
+}
+.black{
+    color: black
+}
+.giamdoc p{
+    font-weight: bolder;
+}
+.giamdoc span{
+    font-weight: normal;
+}
+@media (max-width: 2000px){
+    .linel{
+        margin-right: -15%;
+    }
+    .liner{
+    margin-left: -12%;
+    }
+}
+@media (max-width: 1200px){
+    .linel{
+        margin-right: 0%;
+    }
+    .liner{
+        margin-left: 4%;
+    }
+}
+@media (max-width: 1000px){
+    .linel{
+        margin-right: 15%;
+    }
+    .liner{
+        margin-left: 14%;
+    }
+}
+
+    
+ @media (max-width:600px)
+{
+    .sub-about p
+        { 
+            line-height: 16px;
+         }
+}

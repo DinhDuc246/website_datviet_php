@@ -1,0 +1,1 @@
+Trang không tồn tại... <a href="index.php">quay về trang chủ.</a>
